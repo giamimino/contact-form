@@ -1,0 +1,63 @@
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input, 
+textarea {
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background-color: #f2f2f2;
+}
+
+
+
+button {
+    margin: 10px 0 0 0;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: limegreen;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 2px solid limegreen;
+}
+
+button:checked {
+    background-color: #ffffffd0;
+}
