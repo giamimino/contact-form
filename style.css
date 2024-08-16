@@ -61,3 +61,39 @@ button:hover {
 button:checked {
     background-color: #ffffffd0;
 }
+
+/* Custom Alert Styles */
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.custom-alert.hidden {
+    display: none;
+}
+
+.custom-alert-content {
+    text-align: center;
+}
+
+.custom-alert button#closeAlertBtn {
+    background-color: #f5c6cb;
+    border: none;
+    color: #721c24;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.custom-alert button#closeAlertBtn:hover {
+    background-color: #f1b0b7;
+}
