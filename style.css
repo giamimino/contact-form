@@ -7,6 +7,10 @@
 * {
     margin: 0;
     padding: 0;
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, and newer Edge */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
 }
 
 body {
@@ -15,8 +19,6 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f2f2f2;
-    -moz-user-select: none;
-    -webkit-user-select: none;
 }
 
 form {
